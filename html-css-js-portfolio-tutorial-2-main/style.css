@@ -209,9 +209,21 @@ section {
 /* ICONS */
 
 .icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: white;
+  padding: 4px;
+  margin: 0 10px;
   cursor: pointer;
-  height: 2rem;
+  transition: transform 0.2s ease;
 }
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
 
 /* BUTTONS */
 
@@ -430,3 +442,7 @@ footer {
 footer p {
   text-align: center;
 }
+html {
+  scroll-behavior: smooth;
+}
+
