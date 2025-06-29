@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thato Masiteng | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav id="desktop-nav">
+      <div class="logo">Thato Minenhle Masiteng</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#hire">Hire Me</a></li>
+      </ul>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Thato Minenhle Masiteng</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+        <ul class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#hire" onclick="toggleMenu()">Hire Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- PROFILE SECTION -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic-tee.jpg" alt="Thato Masiteng profile" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hi, I'm</p>
+        <h1 class="title">Thato Masiteng</h1>
+        <p class="section__text__p2">Software Developer | Salesforce Enthusiast</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Thato Minenhle Masiteng Updated C.V.docx')">Download CV</button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <a href="https://www.linkedin.com/in/thato-masiteng-tee27/" target="_blank">
+            <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" title="LinkedIn Profile" />
+          </a>
+          <a href="https://github.com/ThatoMasiteng" target="_blank">
+            <img src="./assets/github.png" alt="GitHub" class="icon" title="GitHub Profile" />
+          </a>
+          <a href="https://www.salesforce.com/trailblazer/terd16f29mmt0zlfug" target="_blank">
+            <img src="./assets/trailhead.png" alt="Trailhead" class="icon" title="Trailhead Profile" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/profile-pic-tee.jpg" alt="Profile" class="profile-pic-tee" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience" class="icon" />
+              <h3>Experience</h3>
+              <p>1+ years<br />Software Development & Salesforce Projects</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education" class="icon" />
+              <h3>Education</h3>
+              <p>Diploma ICT in Application Development</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>I’m a self-driven developer passionate about building solutions that empower people. I specialize in web technologies and Salesforce platform development, continuously learning to stay ahead and help businesses grow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience">
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills</h2>
+            <div class="article-container">
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>HTML</h3><p>Experienced</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>CSS</h3><p>Experienced</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>JavaScript</h3><p>Intermediate</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Apex</h3><p>Basic</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Lightning App Builder</h3><p>Experienced</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Kotlin</h3><p>Intermediate</p></div></article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Certifications</h2>
+            <div class="article-container">
+              <article><img src="./assets/experience.png" class="icon" /><div><h3>Salesforce Platform App Builder</h3><p>04/2025</p></div></article>
+              <article><img src="./assets/experience.png" class="icon" /><div><h3>Salesforce Certified Administrator</h3><p>10/2024</p></div></article>
+              <article><img src="./assets/experience.png" class="icon" /><div><h3>AI Fluency (Microsoft)</h3><p>06/2025</p></div></article>
+              <article><img src="./assets/experience.png" class="icon" /><div><h3>SAP S/4HANA Accounting</h3><p>10/2024</p></div></article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <h1 class="title">Project</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-Intern Quarphix.png" class="project-img" alt="Intern Tracker App" />
+            </div>
+            <h2 class="experience-sub-title project-title">Intern Tracker App</h2>
+            <p>This app helps companies manage interns, track progress, issue certificates, and visualize training program KPIs.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="window.open('https://github.com/ThatoMasiteng')">GitHub</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" class="icon contact-icon email-icon" />
+          <p><a href="mailto:minenhlemasiteng@gmail.com">minenhlemasiteng@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/thato-masiteng-tee27/" target="_blank">LinkedIn Message</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIRE ME SECTION -->
+    <section id="hire">
+      <h1 class="title">Why Hire Me?</h1>
+      <div class="text-container">
+        <p>I bring passion, real-world training, and a proven ability to deliver working solutions. I've successfully built Salesforce apps, dashboards, flows, and user experiences — all with the end-user in mind. I am eager, coachable, and ready to grow in your team.</p>
+        <br />
+        <p><strong>Let’s build success together — I’m ready to make an impact!</strong></p>
+      </div>
+      <div class="btn-container">
+        <button class="btn btn-color-1" onclick="location.href='mailto:minenhlemasiteng@gmail.com'">Hire Me</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#hire">Hire Me</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2025 Thato Minenhle Masiteng. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
