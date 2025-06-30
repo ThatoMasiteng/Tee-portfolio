@@ -47,7 +47,7 @@
         <h1 class="title">Thato Masiteng</h1>
         <p class="section__text__p2">Software Developer | Salesforce Enthusiast</p>
         <div class="btn-container">
-          <button class="btn btn-color-2" onclick="window.open('./assets/Thato Minenhle Masiteng Updated C.V.docx')">Download CV</button>
+          <button class="btn btn-color-2" onclick="window.open('./assets/Thato Minenhle Masiteng Resume.pdf')">Download Resume</button>
           <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
         </div>
         <div id="socials-container">
@@ -131,9 +131,6 @@
             </div>
             <h2 class="experience-sub-title project-title">Intern Tracker App</h2>
             <p>This app helps companies manage interns, track progress, issue certificates, and visualize training program KPIs.</p>
-            <div class="btn-container">
-              <button class="btn btn-color-2" onclick="window.open('https://github.com/ThatoMasiteng')">GitHub</button>
-            </div>
           </div>
         </div>
       </div>
@@ -154,18 +151,33 @@
       </div>
     </section>
 
-    <!-- HIRE ME SECTION -->
-    <section id="hire">
-      <h1 class="title">Why Hire Me?</h1>
-      <div class="text-container">
-        <p>I bring passion, real-world training, and a proven ability to deliver working solutions. I've successfully built Salesforce apps, dashboards, flows, and user experiences — all with the end-user in mind. I am eager, coachable, and ready to grow in your team.</p>
-        <br />
-        <p><strong>Let’s build success together — I’m ready to make an impact!</strong></p>
-      </div>
-      <div class="btn-container">
-        <button class="btn btn-color-1" onclick="location.href='mailto:minenhlemasiteng@gmail.com'">Hire Me</button>
-      </div>
-    </section>
+   <!-- HIRE ME SECTION -->
+<section id="hire">
+  <h1 class="title">Hire Me</h1>
+  <div class="text-container">
+    <p>
+      Looking for a reliable and driven developer? You're in the right place!
+      Fill out the form below and tell me more about the role or opportunity you're offering.
+    </p>
+  </div>
+  <form
+    action="https://formspree.io/f/xeoknadz"
+    method="POST"
+    class="hire-form"
+    style="margin-top: 2rem;"
+  >
+    <div class="btn-container" style="flex-direction: column; align-items: center; gap: 1rem;">
+      <input type="text" name="Name" placeholder="Your Full Name" class="form-input" required />
+      <input type="email" name="Email" placeholder="Your Email Address" class="form-input" required />
+      <input type="text" name="Company" placeholder="Company Name (optional)" class="form-input" />
+      <input type="text" name="Role" placeholder="What role are you hiring for?" class="form-input" required />
+      <textarea name="Message" rows="5" placeholder="Write your message..." class="form-input" required></textarea>
+      <button type="submit" class="btn btn-color-1">Send Request</button>
+    </div>
+  </form>
+</section>
+
+
 
     <!-- FOOTER -->
     <footer>
